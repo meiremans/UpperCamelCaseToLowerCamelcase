@@ -1,4 +1,4 @@
-# <%= moduleName %> [![Build Status](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>.svg?branch=master)](https://travis-ci.org/<%= githubUsername %>/<%= moduleName %>)
+# UpperCamelCaseToLowerCamelcase [![Build Status](https://travis-ci.org/meiremans/UpperCamelCaseToLowerCamelcase.svg?branch=master)](https://travis-ci.org/meiremans/UpperCamelCaseToLowerCamelcase)
 
 >
 
@@ -6,42 +6,33 @@
 ## Install
 
 ```
-$ npm install <%= moduleName %>
+$ npm install UpperCamelCaseToLowerCamelcase
 ```
 
 
 ## Usage
 
 ```js
-const <%= camelModuleName %> = require('<%= moduleName %>');
+const UpperCamelCaseToLowerCamelcase = require('UpperCamelCaseToLowerCamelcase');
 
-<%= camelModuleName %>('unicorns');
-//=> 'unicorns & rainbows'
+UpperCamelCaseToLowerCamelcase('');
+
 ```
 
 
 ## API
 
-### <%= camelModuleName %>(input, [options])
+### upperCamelCaseToLowerCamelcase(input)
 
 #### input
 
-Type: `string`
+Type: `object` || `array`
 
-Lorem ipsum.
+Any Javascript object or array
 
-#### options
-
-Type: `Object`
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
+It returns the same object but with lowerCamelcase keys.
 
 
 ## License
 
-MIT © [<%= name %>](https://github.com/<%= githubUsername %>)
+MIT © Nick Meiremans(https://github.com/meiremans)
