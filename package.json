@@ -1,0 +1,28 @@
+{
+	"name": "UpperCamelCaseToLowerCamelCase",
+	"version": "0.0.0",
+	"description": "Convert your Upper Camel Case (Pascal Case) objects to lower Camel Case Objects ",
+	"license": "MIT",
+	"repository": "https://github.com/meiremans/UpperCamelCaseToLowerCamelcase.git",
+	"author": {
+		"name": "Nick Meiremans",
+		"email": "nick@ab-it.io",
+		"url": "www.ab-it.io"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		""
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^0.25.0"
+	}
+}
