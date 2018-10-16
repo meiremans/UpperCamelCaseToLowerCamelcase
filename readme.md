@@ -35,4 +35,4 @@ It returns the same object but with lowerCamelcase keys.
 
 ## License
 
-MIT © Nick Meiremans(https://github.com/meiremans)
+MIT © AB-IT(https://www.ab-it.io)
